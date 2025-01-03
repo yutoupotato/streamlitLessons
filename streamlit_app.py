@@ -11,7 +11,7 @@ num2 = st.number_input('输入第二个数字:')
 operator = st.selectbox('选择运算符:', ['+', '-', '*', '/'])
 
 # 定义计算逻辑
-if st.button('计算器'):
+if st.button('计算'):
     if operator == '+':
         result = num1 + num2
     elif operator == '-':
